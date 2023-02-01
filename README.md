@@ -15,4 +15,4 @@ Cart View:
 
 Payment View:
 
-![Screenshot from 2023-02-01 11-29-32](https://user-images.githubusercontent.com/23236376/215948855-0e2bb6c5-9e17-4ca1-9d3e-fa872b561754.png)
+![Screenshot from 2023-02-01 11-42-10](https://user-images.githubusercontent.com/23236376/215951956-a10f3988-fae7-483d-bcaa-65b1a4a45c9e.png)
