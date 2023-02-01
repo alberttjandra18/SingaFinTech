@@ -127,8 +127,9 @@ if($payment && $total_amount>0) {
             $balance -= 1;
             $cash["1"]++;
         }
+
         //Display Cart
-        echo "\nYour Change:";
+        echo "\n\nYour Change:";
         if($cash["100"] != 0)
             echo "\n Rp.100: ".$cash["100"];
         if($cash["50"] != 0)
@@ -141,7 +142,8 @@ if($payment && $total_amount>0) {
             echo "\n Rp.5: ".$cash["5"];
         if($cash["1"] != 0)
             echo "\n Rp.1: ".$cash["1"];
+        echo "\n\nTotal Change: Rp.".($total_payment - $total_amount);
     }
 }
 
-echo "\nThank you\nExit.\n";
+echo "\n\nThank you\nExit.\n";
