@@ -62,17 +62,17 @@ do {
     //Display Cart
     echo "\nYour Current Cart:";
     if($cart["Cola"] != 0)
-        echo "\n Cola:".$cart["Cola"];
+        echo "\n Cola: ".$cart["Cola"];
     if($cart["Fanta"] != 0)
-        echo "\n Fanta:".$cart["Fanta"];
+        echo "\n Fanta: ".$cart["Fanta"];
     if($cart["Sprite"] != 0)
-        echo "\n Sprite:".$cart["Sprite"];
+        echo "\n Sprite: ".$cart["Sprite"];
     if($cart["Soda"] != 0)
-        echo "\n Soda Kebahagiaan:".$cart["Soda"];
+        echo "\n Soda Kebahagiaan: ".$cart["Soda"];
     if($cart["Rinso"] != 0)
-        echo "\n Rinso:".$cart["Rinso"];
+        echo "\n Rinso: ".$cart["Rinso"];
     if($cart["Kuah"] != 0)
-        echo "\n Kuah Indomie:".$cart["Kuah"];
+        echo "\n Kuah Indomie: ".$cart["Kuah"];
 
     //Page Breaker
     echo "\n-----------";
@@ -84,8 +84,8 @@ $total_amount = ($cart["Cola"])+($cart["Fanta"]*2)+($cart["Sprite"]*2)+($cart["S
 
 if($payment && $total_amount>0) {
     do {
-        $total_payment = (int)readline('Please insert amount:');
-        echo "\nYou have paid:".$total_payment;
+        $total_payment = (int)readline('Please insert amount: Rp.');
+        echo "\nYou have paid: Rp.".$total_payment;
 
         if($total_payment < $total_amount)
             echo "\nNot Enough, need to add: Rp.".($total_amount-$total_payment)." more. Your total amount is Rp.".$total_amount;
